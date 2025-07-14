@@ -11,4 +11,4 @@ st.image("rotina.png", caption="Rotina")
 if st.button(" crie sua nova rotina"):
     st.write("Você clicou no botão!")
 
-st.header("Minhas pastas")    
+st.markdown(":blue[o texto é azul]") 
