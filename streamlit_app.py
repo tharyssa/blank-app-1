@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("PRO life")
+st.title("PRO") st.markdown(":blue[life]")
 st.header("Folders")
 
 st.image("saude1.png" , caption="Saúde")
