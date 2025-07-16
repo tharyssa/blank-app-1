@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("PRO st.markdown(":blue[life]")  ")
+st.title("PRO life")
 st.header("Folders")
 
 col1, col2, col3, col4 = st.columns(4)
@@ -16,7 +16,9 @@ with col3:
 with col4:
     st.image("rotina.png", caption="Rotina")
 
-if st.button(" crie sua nova rotina"):
+    col1 = st.columns(1)
+with col1:
+ if st.button(" crie sua nova rotina"):
     st.write("Você clicou no botão!")
 
 st.markdown(":blue[o texto é azul]") 
