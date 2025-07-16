@@ -22,8 +22,6 @@ if st.button(" crie sua nova rotina"):
 st.markdown(":blue[o texto é azul]") 
 
 
-left, middle, right = st.columns(3, vertical_alignment="bottom")
+middle = st.columns(1, vertical_alignment="bottom")
 
-left.text_input("Write something")
 middle.button("Click me", use_container_width=True)
-right.checkbox("Check me")
