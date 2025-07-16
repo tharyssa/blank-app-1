@@ -16,9 +16,14 @@ with col3:
 with col4:
     st.image("rotina.png", caption="Rotina")
 
-    col1 = st.columns(1)
-with col1:
- if st.button(" crie sua nova rotina"):
+if st.button(" crie sua nova rotina"):
     st.write("Você clicou no botão!")
 
 st.markdown(":blue[o texto é azul]") 
+
+
+left, middle, right = st.columns(3, vertical_alignment="bottom")
+
+left.text_input("Write something")
+middle.button("Click me", use_container_width=True)
+right.checkbox("Check me")
